@@ -5,6 +5,9 @@
 
 }
 /* COMMONS */
+.font-size18{
+    font-size: 18px;
+}
 .font-white{
     color: white;
 }
@@ -22,7 +25,14 @@ a{
 }
 .btn{
     border-radius: 20px;
-    padding: 5px 10px;
+    padding: 10px 10px;
+    text-transform: capitalize;
+}
+.bkg-white{
+    background-color: white;
+}
+.bkg-black{
+    background-color: black;
 }
 /* FINE COMMONS */
 /* intestazione  */
@@ -50,7 +60,7 @@ header nav{
 }
 nav ul li{
     display: inline-block;
-    margin: 0 10px;
+    margin: 0 15px;
     line-height: 80px;
     list-style: none;
 }
@@ -66,6 +76,16 @@ header .jumbotron{
     position: absolute;
     text-align: center;
 }
+.jumbotron .box-jumbo h1{
+    font-size: 50px;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.jumbotron .box-jumbo p{
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
 header .container::after{
     content: '';
     display: table;
