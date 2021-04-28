@@ -73,22 +73,22 @@ header .container::after{
 }
 /* fine intestazione */
 /* inizio main  */
-main section{
-    width: 80%;
-    margin: auto;
-}
-section .box-section{
+main .section-uno{
     margin-top: 20vh;
 }
 section .box-section>*{
     float: left;
 } 
+section .box-section{
+    width: 80%;
+    margin: auto;
+}
 .box-section::after{
     content: '';
     display: table;
     clear: both;
 }
-section .box-section img{
+section .box-section .img-section{
     width: 65%;
 } 
 section .box-text{
@@ -100,6 +100,11 @@ section .box-text h2{
     line-height: 1.6;
     font-size: 40px;
 }
+.section-due{
+    background-color: #f6f6f6;
+    margin-top: -10px;
+}
+
 
 /* fine main  */
 
