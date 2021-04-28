@@ -22,7 +22,7 @@ a{
 }
 .btn{
     border-radius: 20px;
-    padding: 5px;
+    padding: 5px 10px;
 }
 /* FINE COMMONS */
 /* intestazione  */
@@ -72,7 +72,36 @@ header .container::after{
     clear: both;
 }
 /* fine intestazione */
+/* inizio main  */
+main section{
+    width: 80%;
+    margin: auto;
+}
+section .box-section{
+    margin-top: 20vh;
+}
+section .box-section>*{
+    float: left;
+} 
+.box-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+section .box-section img{
+    width: 65%;
+} 
+section .box-text{
+    width: 30%;
+    margin-left: 5%;
+    padding: 30px;
+}
+section .box-text h2{
+    line-height: 1.6;
+    font-size: 40px;
+}
 
+/* fine main  */
 
 
 
