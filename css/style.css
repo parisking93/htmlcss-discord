@@ -3,3 +3,35 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: lightblue;
+}
+header .container{
+    width: 80%;
+    height: 80px;
+    margin: auto;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG  */
+.container.debug{
+    background-color: blue;
+}
+
+/* fine debug */
