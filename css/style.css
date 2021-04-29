@@ -8,6 +8,9 @@
 .font-size18{
     font-size: 18px;
 }
+.font-size24{
+    font-size: 24px;
+}
 .font-size28{
     font-size: 28px;
 }
@@ -149,16 +152,22 @@ section .box-text{
     margin: 0;
     line-height: 1.8;
 }
+.section-4 .box-btn-4{
+    height: 60px;
+    width: 100%;
+    margin: 20px 0 100px 0;
+}
 .section-4 .btn-4{
     position: absolute;
-    bottom: 10px;
+    top: 50%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%,-50%);
 }
 .section-4 .font-stars{
     width: 100%;
+    line-height: 60px;
+    margin-bottom: 20px;
 }
-
 section .box-text h2{
     line-height: 1.6;
     font-size: 40px;
