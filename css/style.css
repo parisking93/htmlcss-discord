@@ -11,6 +11,9 @@
 .font-size28{
     font-size: 28px;
 }
+.font-center{
+    text-align: center;
+}
 .font-white{
     color: white;
 }
@@ -19,6 +22,9 @@
 }
 a{
     text-decoration: none;
+}
+.relative{
+    position: relative;
 }
 .centre{
     position:absolute;
@@ -83,7 +89,6 @@ header .container{
 header nav{
     width: 60%;
     height: 100%;
-    text-align: center;
 }
 nav ul li{
     display: inline-block;
@@ -102,7 +107,6 @@ header .jumbotron{
 .jumbotron .box-jumbo{
     width: 50%;
     position: absolute;
-    text-align: center;
 }
 .jumbotron .box-jumbo h1{
     font-size: 50px;
@@ -131,16 +135,35 @@ section .box-section{
 section .box-section .img-section{
     width: 65%;
 } 
+.section-4 .box-section .item4-big{
+    width: 100%;
+}
 section .box-text{
     width: 30%;
     margin-left: 5%;
     padding: 30px;
 }
+.section-4 .box-text{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    line-height: 1.8;
+}
+.section-4 .btn-4{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-4 .font-stars{
+    width: 100%;
+}
+
 section .box-text h2{
     line-height: 1.6;
     font-size: 40px;
 }
-.section-due{
+.section-due, .section-4{
     background-color: #f6f6f6;
 }
 /* fine main  */
